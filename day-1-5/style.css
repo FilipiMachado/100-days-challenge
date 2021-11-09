@@ -1,0 +1,37 @@
+* {
+    font-family: Roboto, sans-serif;
+    background-color: #E3D2C9;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+#subtitle {
+    text-align: center;
+    color: #454244;
+}
+
+#main-title {
+    font-size: 60px;
+    text-align: center;
+    color: #975D49;
+}
+
+#main-title:hover {
+    font-size: 80px;
+    text-align: center;
+    color: #f1a389;
+    transition: all 1s ease;
+}
+
+.link-wrapper {
+    text-align: center;
+}
+
+#new-link {
+    color: #94243e;
+    text-decoration: none;
+}

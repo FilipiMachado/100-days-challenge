@@ -1,0 +1,24 @@
+* {
+    font-family: Roboto, sans-serif;
+    background-color: #c9dfe3;
+}
+
+#subtitle {
+    text-align: center;
+    color: #454244;
+}
+
+.list-container {
+    text-align: center;
+    list-style-type: none;
+}
+
+.list-items {
+    color:#454244;
+    margin-top: 10px;
+}
+
+.new-link {
+    color: rgb(29, 79, 218);
+    text-decoration: none;
+}
