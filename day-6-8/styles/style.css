@@ -4,6 +4,11 @@
     background-color: #E3D2C9;
 }
 
+.title-img {
+    width: 200px;
+    height: 200px;
+}
+
 #subtitle {
     text-align: center;
     color: #454244;
@@ -23,4 +28,3 @@
     color: #94243e;
     text-decoration: none;
 }
-
