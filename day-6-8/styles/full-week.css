@@ -1,19 +1,24 @@
 * {
+    margin: 0;
     font-family: Roboto, sans-serif;
-    background-color: #c9dfe3;
+    background-color: #E9D2C9;
 }
 
 .subtitle {
     text-align: center;
     color: #3F3636;
     font-weight: 600;
+    margin: 20px 0 0 0;
 }
 
 #challenge-link {
-    display: block;
+    display: flex;
     margin: auto;
-    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
     text-align: center;
+    width: 20rem;
     color: #ffffff;
     background-color: #AB1647;
     padding: 20px;
@@ -22,31 +27,41 @@
 }
 
 .list-container {
+    display: grid;
+    margin: auto;
+    justify-content: center;
     text-align: center;
     list-style-type: none;
+    border-radius: 10px;
 }
 
 .list-container__items {
     color: #3F3636;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .list-container__title {
-    width: 200px;
+    width: 35rem;
     background-color: #e48570;
     padding: 20px;
     margin: 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .list-container__text {
-    width: 200px;
-
+    width: 35rem;
     background-color: #e48570;
     padding: 20px;
-    margin: 0;
+    border-radius: 0 0 10px 10px;
 }
 
 .new-link {
-    color: rgb(29, 79, 218);
     text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: aliceblue;
+    background-color: rgb(29, 79, 218);
+    padding: 15px;
+    border-radius: 10px;
 }
