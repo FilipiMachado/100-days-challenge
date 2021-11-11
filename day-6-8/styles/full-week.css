@@ -26,9 +26,24 @@
     list-style-type: none;
 }
 
-.list-items {
-    color: #454244;
+.list-container__items {
+    color: #3F3636;
     margin-top: 10px;
+}
+
+.list-container__title {
+    width: 200px;
+    background-color: #e48570;
+    padding: 20px;
+    margin: 0;
+}
+
+.list-container__text {
+    width: 200px;
+
+    background-color: #e48570;
+    padding: 20px;
+    margin: 0;
 }
 
 .new-link {
