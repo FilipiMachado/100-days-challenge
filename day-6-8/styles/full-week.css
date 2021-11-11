@@ -3,9 +3,16 @@
     background-color: #c9dfe3;
 }
 
-#subtitle {
+.subtitle {
     text-align: center;
-    color: #454244;
+    color: #3F3636;
+    font-weight: 600;
+}
+
+#challenge-link {
+    text-align: center;
+    background-color: #AB1647;
+    
 }
 
 .list-container {
@@ -14,7 +21,7 @@
 }
 
 .list-items {
-    color:#454244;
+    color: #454244;
     margin-top: 10px;
 }
 
