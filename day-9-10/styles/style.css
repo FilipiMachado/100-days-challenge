@@ -63,6 +63,7 @@ body {
 
 .main-container__html-sum__li {
     color: #FFEAAD;
+    margin-bottom: 10px;
 }
 
 /* CSS Container */
@@ -96,4 +97,34 @@ body {
 
 .main-container__css-sum__li {
     color: #FFEAAD;
+    margin-bottom: 10px;
+}
+
+/* Button and Copyright */
+
+.footer-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-container__button {
+    background-color: #F2BF45;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-container__button a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.footer-container__copyright {
+    margin: 10px 0 40px 0;
 }
