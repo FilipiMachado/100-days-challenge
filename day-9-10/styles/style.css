@@ -50,6 +50,10 @@ body {
     margin-top: 10px;
 }
 
+.main-container__html-sum__ul {}
+
+.main-container__html-sum__li {}
+
 /* CSS Container */
 
 .main-container__css-sum {
@@ -67,3 +71,7 @@ body {
 .main-container__css-sum__desc {
     margin-top: 10px;
 }
+
+.main-container__css-sum__ul {}
+
+.main-container__css-sum__li {}
