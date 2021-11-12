@@ -52,7 +52,9 @@ body {
 
 /* CSS Container */
 
-.main-container__css-sum {}
+.main-container__css-sum {
+    margin-bottom: 40px;
+}
 
 .main-container__css-sum__title {
     margin-bottom: 20px;
