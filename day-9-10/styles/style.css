@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+    background-color: #F4E5FF;
+}
+
+.main-title {
+    margin-top: 40px;
+    text-align: center;
+    color: #5926C4;
+}
+
+.main-img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
