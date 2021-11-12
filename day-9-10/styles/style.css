@@ -32,8 +32,10 @@ body {
     color: #ffffff;
 }
 
-.main-container__html-sum {
+/* HTML Container */
 
+.main-container__html-sum {
+    margin-bottom: 40px;
 }
 
 .main-container__html-sum__title {
@@ -44,14 +46,22 @@ body {
     margin-bottom: 10px;
 }
 
-.main-container__css-sum {
-
+.main-container__html-sum__desc {
+    margin-top: 10px;
 }
 
-.main-container__css-sum__title {
+/* CSS Container */
 
+.main-container__css-sum {}
+
+.main-container__css-sum__title {
+    margin-bottom: 20px;
 }
 
 .main-container__css-sum__text {
-    
+    margin-bottom: 10px;
+}
+
+.main-container__css-sum__desc {
+    margin-top: 10px;
 }
