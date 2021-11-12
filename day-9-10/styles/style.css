@@ -50,14 +50,25 @@ body {
     margin-top: 10px;
 }
 
-.main-container__html-sum__ul {}
+.main-container__html-sum__desc span {
+    color: black;
+    background-color: #FFEAAD;
+    border-radius: 10px;
+    padding: 2px;
+}
 
-.main-container__html-sum__li {}
+.main-container__html-sum__ul {
+    list-style-type: none;
+}
+
+.main-container__html-sum__li {
+    color: #FFEAAD;
+}
 
 /* CSS Container */
 
 .main-container__css-sum {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .main-container__css-sum__title {
@@ -72,6 +83,17 @@ body {
     margin-top: 10px;
 }
 
-.main-container__css-sum__ul {}
+.main-container__css-sum__desc span {
+    color: black;
+    background-color: #F2BF45;
+    border-radius: 10px;
+    padding: 2px;
+}
 
-.main-container__css-sum__li {}
+.main-container__css-sum__ul {
+    list-style-type: none;
+}
+
+.main-container__css-sum__li {
+    color: #FFEAAD;
+}
