@@ -4,6 +4,15 @@
     background-color: #E3D2C9;
 }
 
+.container, #subtitle, #main-title {
+    display: block;
+    margin: auto;
+    width: 80%;
+    background-color: #E16B51;
+    padding: 20px;
+    color: #454244;
+}
+
 .title-img {
     width: 200px;
     height: 200px;
@@ -11,13 +20,11 @@
 
 #subtitle {
     text-align: center;
-    color: #454244;
 }
 
 #main-title {
     font-size: 60px;
     text-align: center;
-    color: #975D49;
 }
 
 .link-wrapper {
