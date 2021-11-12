@@ -36,6 +36,22 @@ body {
 
 }
 
+.main-container__html-sum__title {
+    margin-bottom: 20px;
+}
+
+.main-container__html-sum__text {
+    margin-bottom: 10px;
+}
+
 .main-container__css-sum {
 
+}
+
+.main-container__css-sum__title {
+
+}
+
+.main-container__css-sum__text {
+    
 }
