@@ -19,3 +19,23 @@ body {
     margin: auto;
     margin-top: 40px;
 }
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #713BD6;
+    color: #ffffff;
+}
+
+.main-container__html-sum {
+
+}
+
+.main-container__css-sum {
+
+}
