@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    font-family: 'Encode Sans', sans-serif;
+}
+
+body {
+    background-color: #F4E5FF;
+}
+
+.main-title {
+    margin-top: 40px;
+    text-align: center;
+    color: #5926C4;
+}
+
+.main-img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 60px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #713BD6;
+    color: #ffffff;
+}
+
+/* HTML Container */
+
+.main-container__html-sum {
+    margin-bottom: 40px;
+}
+
+.main-container__html-sum__title {
+    margin-bottom: 20px;
+}
+
+.main-container__html-sum__text {
+    margin-bottom: 10px;
+}
+
+.main-container__html-sum__desc {
+    margin-top: 10px;
+}
+
+.main-container__html-sum__desc span {
+    color: black;
+    background-color: #FFEAAD;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.main-container__html-sum__ul {
+    list-style-type: none;
+}
+
+.main-container__html-sum__li {
+    color: #FFEAAD;
+    margin-bottom: 10px;
+}
+
+/* CSS Container */
+
+.main-container__css-sum {
+    margin-bottom: 20px;
+}
+
+.main-container__css-sum__title {
+    margin-bottom: 20px;
+}
+
+.main-container__css-sum__text {
+    margin-bottom: 10px;
+}
+
+.main-container__css-sum__desc {
+    margin-top: 10px;
+}
+
+.main-container__css-sum__desc span {
+    color: black;
+    background-color: #F2BF45;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.main-container__css-sum__ul {
+    list-style-type: none;
+}
+
+.main-container__css-sum__li {
+    color: #FFEAAD;
+    margin-bottom: 10px;
+}
+
+/* Button and Copyright */
+
+.footer-container {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-container__button {
+    background-color: #F2BF45;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.footer-container__button a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+
+.footer-container__copyright {
+    margin: 20px 0 40px 0;
+}
