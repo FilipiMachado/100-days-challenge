@@ -13,3 +13,9 @@ body {
   text-transform: uppercase;
   text-shadow: 3px 3px 2px rgb(104, 104, 104);
 }
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
