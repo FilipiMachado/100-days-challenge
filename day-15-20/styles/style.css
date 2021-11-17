@@ -1,4 +1,12 @@
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
+  background-color: rgb(215, 166, 255);
+}
+
+.page-logo__link {
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 40px;
 }
