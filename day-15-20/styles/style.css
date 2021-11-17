@@ -9,4 +9,6 @@ body {
   font-family: "Oleo Script", sans-serif;
   color: rgb(245, 243, 160);
   font-size: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
