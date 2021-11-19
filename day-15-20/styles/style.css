@@ -6,7 +6,9 @@ body {
 
 .page-logo {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  background-color: red;
 }
 
 .page-logo__link {
@@ -24,6 +26,10 @@ body {
   width: 250px;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1;
   background-color: aquamarine;
+}
+
+.navbar-list__item {
+  
 }
