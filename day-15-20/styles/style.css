@@ -3,7 +3,7 @@ body {
   margin: 0;
   background-image: url("/images/ocean.jpg");
   background-color: #cccccc;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-color: #b3d8fc;
 }
@@ -96,6 +96,8 @@ body {
 /* Highlight Section */
 
 .highlight-container {
+  text-align: center;
+  margin-top: 350px;
 }
 
 .highlight-container__title {
