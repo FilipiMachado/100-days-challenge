@@ -96,9 +96,9 @@ body {
 /* Highlight Section */
 
 .highlight-container {
-  text-align: center;
   margin-top: 350px;
 }
 
 .highlight-container__title {
+  text-align: center;
 }
