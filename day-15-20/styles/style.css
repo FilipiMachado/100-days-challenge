@@ -104,9 +104,13 @@ body {
 }
 
 .highlight-container__items {
+  display: flex;
+  background-color: grey;
+  width: 35%;
 }
 
 .highlight-container__img {
+  width: 200px;
 }
 
 .highlight-container__text {
