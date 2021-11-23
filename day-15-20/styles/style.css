@@ -104,19 +104,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+
 }
 
 .highlight-container__items {
+  margin: 10px 20px;
 }
 
 .highlight-container__img {
   width: 300px;
   height: 200px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.46);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.46);
 }
 
 .highlight-container__text {
-  
+  text-align: center;
 }
 
 .highlight-container__text a {
