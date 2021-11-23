@@ -95,18 +95,18 @@ body {
 
 /* Highlight Section */
 
-.highlight-container {
+.highlight-container__title {
+  text-align: center;
   margin-top: 350px;
 }
 
-.highlight-container__title {
-  text-align: center;
+.highlight-container {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
 }
 
 .highlight-container__items {
-  display: flex;
-  background-color: grey;
-  width: 35%;
 }
 
 .highlight-container__img {
@@ -114,7 +114,9 @@ body {
 }
 
 .highlight-container__text {
+  display: flex;
 }
 
 .highlight-container__text span {
+  color: rgb(0, 101, 160);
 }
