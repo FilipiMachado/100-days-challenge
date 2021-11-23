@@ -119,6 +119,7 @@ body {
   
 }
 
-.highlight-container__text span {
+.highlight-container__text a {
   color: rgb(0, 101, 160);
+  cursor: pointer;
 }
