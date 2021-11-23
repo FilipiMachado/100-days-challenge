@@ -37,6 +37,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   background-color: transparent;
+  font-weight: 600;
 }
 
 .navbar-list__item:hover {
@@ -54,6 +55,8 @@ body {
   transition: all 0.5s ease;
   color: black;
 }
+
+/* Main Section*/
 
 .main-container {
   width: 50%;
@@ -88,4 +91,12 @@ body {
   border: none;
   padding: 15px;
   cursor: pointer;
+}
+
+/* Highlight Section */
+
+.highlight-container {
+}
+
+.highlight-container__title {
 }
