@@ -104,7 +104,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .highlight-container__items {
@@ -115,8 +114,9 @@ body {
   width: 300px;
   height: 200px;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.46);
-  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 6px 5px 15px 1px rgba(0, 0, 0, 0.46);
+  box-shadow: 6px 5px 15px 1px rgba(0, 0, 0, 0.46);
+  cursor: pointer;
 }
 
 .highlight-container__text {
@@ -125,5 +125,22 @@ body {
 
 .highlight-container__text a {
   color: rgb(0, 101, 160);
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer-container {
+  background-color: black;
+  padding: 60px;
+}
+
+.footer-container__items {
+  text-align: center;
+}
+
+.footer-container__img {
+  width: 50px;
+  margin-right: 20px;
   cursor: pointer;
 }
