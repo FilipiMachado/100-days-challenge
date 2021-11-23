@@ -1,7 +1,10 @@
 body {
   font-family: "Quicksand", sans-serif;
   margin: 0;
-  background-color: rgb(215, 166, 255);
+  background-image: url("/images/ocean.jpg");
+  background-color: #cccccc;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .page-logo {
@@ -32,13 +35,12 @@ body {
 .navbar-list__item {
   padding: 10px;
   border-radius: 10px;
-  background-color:transparent;
+  background-color: transparent;
 }
 
 .navbar-list__item:hover {
   background-color: #ffec00;
   color: black;
-
 }
 
 .navbar-list__item__link {
