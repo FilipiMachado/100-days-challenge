@@ -88,4 +88,5 @@ h1 {
   color: var(--color-white);
   background-color: var(--color-blue-primary);
   border: 2px solid var(--color-white);
+  transition: all 0.4s ease; 
 }
