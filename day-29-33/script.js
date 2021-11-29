@@ -24,4 +24,4 @@ const course = "Descampeao"
 const price = 29.99
 const goals = ["rego", "pelego", "dihego"]
 
-const elementIdentifier = goals[1]
+let elementIdentifier = goals[1]
