@@ -8,8 +8,8 @@ let allowedChars = inputElement.maxLength;
 const updateChars = (e) => {
   let enteredText = e.target.value;
   let enteredTextLength = enteredText.length;
-  let remainingChars = 60 - enteredTextLength;
-
+  let remainingChars = allowedChars - enteredTextLength;
+  console.log(remainingChars);
 };
 
 inputElement.addEventListener("input", updateChars);
