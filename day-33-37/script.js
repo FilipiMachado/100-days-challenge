@@ -9,8 +9,7 @@ const updateChars = (e) => {
   let enteredText = e.target.value;
   let enteredTextLength = enteredText.length;
   let remainingChars = allowedChars - enteredTextLength;
-  console.log(remainingChars);
-
+  
   remainingCharsEl.textContent = remainingChars;
 };
 
