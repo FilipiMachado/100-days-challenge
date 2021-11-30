@@ -10,6 +10,8 @@ const updateChars = (e) => {
   let enteredTextLength = enteredText.length;
   let remainingChars = allowedChars - enteredTextLength;
   console.log(remainingChars);
+
+  remainingCharsEl.textContent = remainingChars;
 };
 
 inputElement.addEventListener("input", updateChars);
