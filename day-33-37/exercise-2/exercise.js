@@ -22,11 +22,11 @@ const removeButton = document.querySelector(".remove-btn");
 const addButton = document.querySelector(".add-btn");
 
 const removeParagraphHandler = ()=> {
-
+    console.dir(removeButton);
 }
 
 const addBackgroundHandler = ()=> {
-    
+    console.dir(addButton);
 }
 
 removeButton.addEventListener("click", removeParagraphHandler)
