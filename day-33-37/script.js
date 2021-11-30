@@ -1,8 +1,8 @@
 let inputElement = document.querySelector(".input-text");
 let remainingChars = document.querySelector(".remaining-chars");
 
-const updateChars = ()=> {
-    
-}
+const updateChars = (e) => {
+  let enteredText = e.target.value;
+};
 
-inputElement.addEventListener("input",)
+inputElement.addEventListener("input", updateChars);
