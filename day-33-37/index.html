@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Working with DOM</title>
-    <script src="script.js" defer></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <div>
         <form>
-            <label>
+            <label for="product-name">
                 Product Name
             </label>
-            <input class="input-text" type="text"/>
-            <span class="control">60/60</span>
+            <input class="input-text" type="text" name="product-name" maxlength="60"/>
+            <span class="char-count">
+              <span class="remaining-chars">60</span>/60
+            </span>
             <button type="submit">Submit</button>
         </form>
     </div>
