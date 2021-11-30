@@ -20,3 +20,14 @@
 
 const removeButton = document.querySelector(".remove-btn");
 const addButton = document.querySelector(".add-btn");
+
+const removeParagraphHandler = ()=> {
+
+}
+
+const addBackgroundHandler = ()=> {
+    
+}
+
+removeButton.addEventListener("click", removeParagraphHandler)
+addButton.addEventListener("click", addBackgroundHandler)
