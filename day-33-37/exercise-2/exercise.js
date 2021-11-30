@@ -31,7 +31,7 @@ const removeParagraphHandler = ()=> {
 }
 
 const addBackgroundHandler = ()=> {
-    console.dir(addButton);
+    thirdParagraph.style.backgroundColor = "red";
 }
 
 removeButton.addEventListener("click", removeParagraphHandler)
