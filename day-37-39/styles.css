@@ -66,3 +66,7 @@ input.warning {
 #remaining-chars.warning {
   color: rgb(211, 109, 26);
 }
+
+.error {
+  color: red;
+}
